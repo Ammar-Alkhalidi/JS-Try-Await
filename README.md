@@ -57,9 +57,9 @@ Solution:
 The addEventListener method is used to attach a submit event to the form. Validation logic is encapsulated in a function, which updates the message and styles dynamically. In the alternate version, validation is handled using Promises to simulate asynchronous processes.
 
 # Technologies Used
-HTML: Structure of the tasks and elements.
-CSS: Styling of elements (e.g., hover effects, classes like error and success).
-JavaScript: Logic for interactivity, DOM manipulation, and event handling.
+* HTML: Structure of the tasks and elements.
+* CSS: Styling of elements (e.g., hover effects, classes like error and success).
+* JavaScript: Logic for interactivity, DOM manipulation, and event handling.
 
 # How to Run
 Clone this repository.
