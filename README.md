@@ -56,7 +56,7 @@ Display an error message with a red background if either field is empty.
 Ensure the message div never contains both success and error classes.
 Solution:
 The addEventListener method is used to attach a submit event to the form. Validation logic is encapsulated in a function, which updates the message and styles dynamically. In the alternate version, validation is handled using Promises to simulate asynchronous processes.
-![Example Image]https://github.com/Ammar-Alkhalidi/JS-Try-Await/blob/main/success-preview.png
+![Example Image](https://github.com/Ammar-Alkhalidi/JS-Try-Await/blob/main/success-preview.png))
 
 # Technologies Used
 * HTML: Structure of the tasks and elements.
