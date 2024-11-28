@@ -47,7 +47,7 @@ Each task is assigned a click event listener using forEach on a list of task ele
 - Task 5: Form Validation with Success and Error Messages
 Objective:
 Validate a form upon submission and display appropriate feedback.
-![Example Image]([images/example.png](https://github.com/Ammar-Alkhalidi/JS-Try-Await/blob/main/error-preview.png))
+![Example Image](https://github.com/Ammar-Alkhalidi/JS-Try-Await/blob/main/error-preview.png))
 
 # Functionality:
 Check if the email and password fields are filled.
