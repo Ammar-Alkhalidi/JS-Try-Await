@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Task 5</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .message {
+        margin-top: 1.5rem;
+        padding: 1.5rem;
+      }
+
+      .success {
+        background-color: #4bb543;
+      }
+      .error {
+        background-color: tomato;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form id="registration-form">
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <button>Submit</button>
+    </form>
+
+    <div class="message"></div>
+
+    <script>
+      const form = document.getElementById("registration-form");
+      const messageDiv = document.querySelector(".message");
+
+      // event listener to  submit button
+      form.addEventListener("submit", function (event) {
+        // Prevent  form  submitting
+        event.preventDefault();
+
+        // give the email and password input values
+        const email = document.getElementById("email").value;
+        const password = document.getElementById("password").value;
+
+        // Clear any previous messages and classes
+        messageDiv.classList.remove("success", "error");
+        messageDiv.textContent = "";
+
+        // Check if  email or password values empty
+        if (email === "" || password === "") {
+          messageDiv.classList.add("error");
+          messageDiv.textContent =
+            "ERROR: you have to insert both an e-mail and a password.";
+        } else {
+          messageDiv.classList.add("success");
+          messageDiv.textContent = "SUCCESS: registration complete.";
+        }
+      });
+    </script>
+  </body>
+</html>
