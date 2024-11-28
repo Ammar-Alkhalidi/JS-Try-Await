@@ -1,5 +1,7 @@
 # JavaScript Practice Tasks
 This repository contains solutions to a series of JavaScript exercises aimed at building practical programming skills. Below is a brief description of each task.
+![Example Image](https://github.com/Ammar-Alkhalidi/JS-Try-Await/blob/main/error-preview.png))
+![Example Image](https://github.com/Ammar-Alkhalidi/JS-Try-Await/blob/main/success-preview.png))
 
 - Task 1: Style a Paragraph on Button Click
 Objective:
